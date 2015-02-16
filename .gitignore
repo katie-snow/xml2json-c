@@ -1,18 +1,11 @@
 # Object files
 *.o
 *.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
 
 # Libraries
 *.lib
 *.a
-*.la
-*.lo
+*.Po
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -24,6 +17,45 @@
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
+xml2jsonc
+
+# Kernel stuff
+*.mod.c
+*.order
+*.symvers
+linux-kernel/.*
+
+# Eclipse stuff
+*/.deps
+.cproject
+.settings
+.project
+
+# Autotool stuff
+/autom4te.cache/
+/config/
+Makefile
+app.info
+compile
+config.h
+config.h.in
+config.log
+config.status
+configure.scan
+coverage_report
+libtool
+stamp-h1
+*~
+*.html
+*.log
+*.o
+*.la
+*.so*
+*.a
+.deps
+*.tar*
+*.zip
+*.lo
+*.gcno
+*.gcda
+*.libs

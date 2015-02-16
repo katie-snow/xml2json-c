@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xml2json-c
+Description: XML 2 JSON-C library.
+Version: 0.1
+URL: 
+Libs: -L${libdir} -lxml2json-c-0.1
+Cflags: -I${includedir}/example-0.1 -I${libdir}/example-0.1/include
