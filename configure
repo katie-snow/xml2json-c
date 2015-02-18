@@ -11686,7 +11686,7 @@ fi
 XML2JSONC_LIB_VERSION=0.1
 
 
-ac_config_files="$ac_config_files Makefile src/test/Makefile src/libs/Makefile xml2json-c-${XML2JSONC_LIB_VERSION}.pc:xml2json-c.pc.in"
+ac_config_files="$ac_config_files Makefile src/tool/Makefile src/libs/Makefile xml2json-c-${XML2JSONC_LIB_VERSION}.pc:xml2json-c.pc.in"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -12709,7 +12709,7 @@ do
     "depfiles") CONFIG_COMMANDS="$CONFIG_COMMANDS depfiles" ;;
     "libtool") CONFIG_COMMANDS="$CONFIG_COMMANDS libtool" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
-    "src/test/Makefile") CONFIG_FILES="$CONFIG_FILES src/test/Makefile" ;;
+    "src/tool/Makefile") CONFIG_FILES="$CONFIG_FILES src/tool/Makefile" ;;
     "src/libs/Makefile") CONFIG_FILES="$CONFIG_FILES src/libs/Makefile" ;;
     "xml2json-c-${XML2JSONC_LIB_VERSION}.pc") CONFIG_FILES="$CONFIG_FILES xml2json-c-${XML2JSONC_LIB_VERSION}.pc:xml2json-c.pc.in" ;;
 

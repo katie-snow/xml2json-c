@@ -18,7 +18,7 @@ PKG_CHECK_MODULES([XML2], [libxml-2.0 >= 2.9.1])
 AC_SUBST([XML2JSONC_LIB_VERSION], [0.1])
 
 AC_CONFIG_FILES([Makefile 
-                src/test/Makefile
+                src/tool/Makefile
                 src/libs/Makefile             
                 xml2json-c-${XML2JSONC_LIB_VERSION}.pc:xml2json-c.pc.in])
 AC_OUTPUT
