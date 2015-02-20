@@ -6,6 +6,6 @@ includedir=@includedir@
 Name: @PACKAGE_NAME@
 Description: XML 2 JSON-C library.
 Version: @PACKAGE_VERSION@
-URL: @PACKAGE_URL@
 Libs: -L${libdir} -lxml2json-c-@XML2JSONC_LIB_VERSION@
-Cflags: -I${includedir}/example-@XML2JSONC_LIB_VERSION@ -I${libdir}/example-@XML2JSONC_LIB_VERSION@/include
+Cflags: -I${includedir}/xml2json-c
+Requires.private: @AX_PACKAGE_REQUIRES_PRIVATE@
